@@ -1,0 +1,129 @@
+.parent {
+  max-width: 86.5rem;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.backgroundParent {
+  height: 33rem;
+  background-color: rgb(1, 1, 10);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.background {
+  height: 100%;
+  background-image: url('https://pbs.twimg.com/media/D5NjSkvUIAINXyF?format=jpg&name=medium');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+.subtxtParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30.75%;
+  left: 31%;
+  right: 31%;
+}
+.subtxt h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 0 0 3px rgb(170, 233, 227);
+}
+.subtxt p {
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+
+@media (max-width: 1480px) {
+  .backgroundParent {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 1120px) {
+  .subtxtParent {
+    top: 25%;
+  }
+}
+@media (max-width: 1068px) {
+  .subtxt h1 {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 1080px) {
+  .subtxt p {
+    max-width: 75%;
+  }
+}
+@media (max-width: 1030px) {
+  .subtxt h1 {
+    font-size: 2rem;
+  }
+  .backgroundParent {
+    height: 25rem;
+  }
+}
+@media (max-width: 960px) {
+  .subtxt h1 {
+    font-size: 1.9rem;
+  }
+  .backgroundParent {
+    height: 20rem;
+  }
+  .subtxtParent {
+    top: 10%;
+  }
+}
+@media (max-width: 820px) {
+  .subtxt h1 {
+    font-size: 1.7rem;
+  }
+  .subtxt p {
+    max-width: 90%;
+  }
+  .subtxtParent {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+}
+@media (max-width: 780px) {
+  .backgroundParent {
+    height: 17rem;
+  }
+}
+@media (max-width: 600px) {
+  .backgroundParent {
+    height: 14rem;
+  }
+}
+@media (max-width: 480px) {
+  .backgroundParent {
+    height: 12rem;
+    margin: 0;
+  }
+  .subtxtParent {
+    top: 1%;
+  }
+}
+@media (max-width: 373px) {
+  .backgroundParent {
+    height: 11rem;
+  }
+  .subtxt h1 {
+    font-size: 1.5rem;
+    margin-top: 7px;
+  }
+  .subtxt p {
+    font-size: 0.9rem;
+  }
+}

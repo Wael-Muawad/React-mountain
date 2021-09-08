@@ -1,0 +1,18 @@
+.rectangle {
+  max-height: 100%;
+  max-width: 60rem;
+  margin: auto;
+  display: flex;
+}
+@media (max-width: 1050px) {
+  .rectangle {
+    flex-wrap: wrap-reverse;
+    margin: auto;
+  }
+}
+@media (max-width: 540px) {
+  .parent {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

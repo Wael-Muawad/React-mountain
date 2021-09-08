@@ -1,0 +1,41 @@
+.parent {
+  display: flex;
+  justify-content: center;
+}
+
+.textHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10vmin;
+}
+
+.textHeader h1 {
+  text-align: center;
+  font-size: 2.7rem;
+}
+
+.textHeader p {
+  margin: 0;
+  margin-bottom: 8%;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+}
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+@media (max-width: 900px) {
+  .textHeader h1 {
+    font-size: 2rem;
+  }
+  .textHeader p {
+    max-width: 25rem;
+  }
+}
+@media (max-width: 420px) {
+  .textHeader h1 {
+    font-size: 1.6rem;
+  }
+}

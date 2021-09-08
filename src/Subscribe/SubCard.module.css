@@ -1,0 +1,132 @@
+.subCard {
+  max-width: 54rem;
+  height: 8.6rem;
+  background-color: white;
+  position: relative;
+  margin: auto;
+  bottom: 8vmin;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+}
+.btn {
+  padding: 19px 40px;
+  background-color: rgba(255, 166, 0, 0.787);
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+
+input {
+  border: 1px solid wheat;
+  width: 25%;
+  padding: 27px;
+}
+input:focus {
+  border: 3px solid rgb(231, 209, 169);
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+
+@media (max-width: 1300px) {
+  .backgroundParent {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 1010px) {
+  .subCard {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media (max-width: 960px) {
+  .subCard {
+    margin: auto;
+    max-width: 40rem;
+    height: 5rem;
+    bottom: 5vmin;
+  }
+  input {
+    width: 20%;
+    padding: 20px;
+  }
+  .btn {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 780px) {
+  .subCard {
+    max-width: 30rem;
+    height: 4rem;
+  }
+  input {
+    width: 25%;
+    padding: 10px;
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .subCard {
+    max-width: 26rem;
+    height: 3.5rem;
+  }
+  input {
+    width: 34%;
+    padding: 10px;
+    border: none;
+  }
+  .btn {
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 530px) {
+  .subCard {
+    max-width: 22rem;
+  }
+}
+@media (max-width: 420px) {
+  .subCard {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  input {
+    width: 34%;
+    padding: 10px;
+  }
+  .btn {
+    padding: 6px 6px;
+  }
+}
+@media (max-width: 373px) {
+  .subCard {
+    height: 3rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  input {
+    width: 34%;
+    padding: 10px;
+    padding: 5px;
+  }
+  input::placeholder {
+    font-size: 0.7rem;
+  }
+  .btn {
+    padding: 3px 3px;
+  }
+}

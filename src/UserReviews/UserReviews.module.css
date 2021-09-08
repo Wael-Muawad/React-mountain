@@ -1,0 +1,33 @@
+.parent {
+  height: 420px;
+  margin-top: 10rem;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+}
+.cardParent {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1050px) {
+  .parent {
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .cardHide {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .parent {
+    height: 350px;
+  }
+}
+@media (max-width: 400px) {
+  .parent {
+    height: 310px;
+  }
+}

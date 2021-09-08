@@ -1,0 +1,67 @@
+.userBtn {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.userBtn h2 {
+  font-size: 2rem;
+}
+.btns {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.btns button {
+  background-color: rgb(219, 173, 86);
+  border: none;
+  height: 60px;
+  width: 60px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btns span {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+@media (max-width: 600px) {
+  .userBtn {
+    height: 100px;
+  }
+}
+@media (max-width: 450px) {
+  .userBtn h2 {
+    font-size: 1.5rem;
+  }
+  .btns {
+    width: 150px;
+  }
+  .btns button {
+    height: 50px;
+    width: 50px;
+  }
+  .btns span {
+    font-size: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .userBtn h2 {
+    font-size: 1.3rem;
+  }
+  .btns {
+    width: 110px;
+  }
+  .btns button {
+    height: 50px;
+    width: 50px;
+  }
+  .btns span {
+    font-size: 40px;
+  }
+}

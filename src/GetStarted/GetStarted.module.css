@@ -1,0 +1,95 @@
+.parent {
+  max-width: 70vmin;
+  margin: auto;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.box {
+  display: flex;
+  margin: 4vmin;
+  height: 8vmin;
+  justify-content: space-around;
+}
+.box select {
+  width: 170px;
+  height: 40px;
+  display: flex;
+  margin: auto;
+  border: none;
+  border-radius: 30px;
+  background-color: beige;
+  font-size: 1.2rem;
+}
+.select {
+  max-height: 100px;
+  overflow: scroll;
+}
+.started {
+  background-color: bisque;
+  margin: auto;
+  padding: 0.3rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 30px;
+  text-align: center;
+}
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+@media (max-width: 870px) {
+  .parent {
+    max-width: 85%;
+  }
+  .box {
+    height: 10vmin;
+  }
+}
+@media (max-width: 680px) {
+  .parent {
+    max-width: 90%;
+  }
+  .box select {
+    width: 130px;
+    height: 30px;
+    font-size: 1.2rem;
+  }
+  .started {
+    width: 130px;
+    height: 30px;
+    font-size: 1.2rem;
+    padding: 0.1rem;
+  }
+}
+@media (max-width: 500px) {
+  .parent {
+    max-width: 90%;
+    min-height: 6rem;
+  }
+  .box {
+    flex-wrap: wrap-reverse;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    min-height: 6rem;
+  }
+}
+@media (max-width: 380px) {
+  .box {
+    margin: 10px;
+  }
+  .box select {
+    width: 130px;
+    height: 30px;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 319px) {
+  .box {
+    margin: 10px;
+  }
+  .box select {
+    width: 100px;
+    height: 30px;
+    font-size: 1.2rem;
+  }
+}

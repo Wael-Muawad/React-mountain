@@ -1,0 +1,98 @@
+.cardParent {
+  display: flex;
+  flex-direction: row;
+}
+.userCard {
+  height: 270px;
+  display: flex;
+}
+.userImg {
+  height: 270px;
+  width: 40%;
+}
+.userImg img {
+  height: 270px;
+  max-width: 100%;
+}
+.userInfo {
+  height: 270px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.userInfo h2 {
+  margin-bottom: -20px;
+}
+.userInfo p {
+  font-size: 1.1rem;
+  max-height: 125px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+@media (max-width: 1050px) {
+  .userInfo {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .userCard {
+    height: 240px;
+  }
+  .userImg {
+    height: 230px;
+    padding-left: 5px;
+  }
+  .userImg img {
+    height: 100%;
+  }
+  .userInfo {
+    height: 230px;
+    max-width: 54%;
+  }
+}
+@media (max-width: 450px) {
+  .userCard {
+    height: 230px;
+  }
+  .userImg {
+    width: 50%;
+  }
+  .userInfo h2 {
+    font-size: 1.3rem;
+  }
+  .userInfo h4 {
+    font-size: 1rem;
+  }
+  .userInfo p {
+    font-size: 1rem;
+    max-width: 99.6%;
+  }
+}
+@media (max-width: 400px) {
+  .userCard {
+    height: 200px;
+  }
+  .userImg {
+    height: 200px;
+    padding-left: 5px;
+  }
+  .userInfo {
+    height: 200px;
+    padding-left: 5px;
+  }
+  .userInfo h2 {
+    margin-top: 0;
+    padding-bottom: 7px;
+    font-size: 1.1rem;
+  }
+  .userInfo h4 {
+    font-size: 0.7rem;
+  }
+  .userInfo p {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,50 @@
+.bigNews {
+  width: 97.5%;
+  height: 97%;
+  margin: auto;
+  position: relative;
+  margin-left: 0.8rem;
+  margin-top: 0.3rem;
+}
+.bigNews img {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+}
+.bigNewsInfo {
+  background-color: white;
+  height: 38%;
+  width: 55%;
+  position: absolute;
+  bottom: 0;
+}
+.bigNewsInfo p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(83, 175, 166);
+}
+.bigNewsInfo h2 {
+  width: 100%;
+  height: 70px;
+  white-space: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.info {
+  /* background-color: lightsalmon; */
+  margin: auto;
+  margin-left: 20px;
+}
+
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+@media (max-width: 1200px) {
+  .info {
+    margin: auto;
+    margin-left: 5px;
+    max-width: 100%;
+  }
+}

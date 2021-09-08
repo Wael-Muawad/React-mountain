@@ -1,0 +1,34 @@
+.picCard {
+  min-width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.picCard img {
+  height: 476px;
+  width: 100%;
+}
+@media (max-width: 1050px) {
+  .picCard {
+    margin: auto;
+    width: 85vw;
+  }
+}
+@media (max-width: 600px) {
+  .picCard {
+    width: 30rem;
+  }
+}
+@media (max-width: 470px) {
+  .picCard img {
+    height: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .picCard img {
+    height: 350px;
+  }
+}
+@media (max-width: 350px) {
+  .picCard img {
+    height: 300px;
+  }
+}

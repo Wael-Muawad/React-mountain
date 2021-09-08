@@ -1,0 +1,42 @@
+.parent {
+  margin-bottom: 300px;
+}
+.parent h2 {
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 70px;
+  font-size: 2.2rem;
+}
+.cardContainer {
+  height: 470px;
+  display: flex;
+  justify-content: space-around;
+}
+/*---------------------------------*/
+/*---------------------------------*/
+@media (max-width: 1050px) {
+  .parent {
+    margin-bottom: 40rem;
+  }
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 899px) {
+  .cardContainer {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media (max-width: 680px) {
+  .parent {
+    margin-bottom: 70rem;
+  }
+  .cardContainer {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+}
